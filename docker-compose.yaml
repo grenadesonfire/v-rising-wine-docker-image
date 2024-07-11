@@ -9,11 +9,12 @@ services:
         source: ./saves
         target: /saves
     environment:
-      - V_RISING_NAME=example test
+      - V_RISING_NAME=Draconick's Hold
       - V_RISING_PASSW=example password
       - V_RISING_SAVE_NAME=save1
-      - V_RISING_PUBLIC_LIST=true
+      - V_RISING_PUBLIC_LIST=false
       - V_RISING_SETTING_PRESET=
+      - V_RISING_RESOURCE_YIELD_MOD=2.0
     ports:
       - 9876:9876/udp
       - 9877:9877/udp
